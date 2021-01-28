@@ -16,8 +16,6 @@ version = '1.3.0-Resolve'
 
 def functionalTest = sourceSets.create("functionalTest")
 
-def functionalTest = sourceSets.create("functionalTest")
-
 dependencies {
     testImplementation 'junit:junit:4.13.2'
     functionalTestImplementation 'junit:junit:4.13.2'
